@@ -3,6 +3,12 @@
 This is a beginner-friendly Python project that classifies companies into a set of predefined insurance industry categories based on text matching logic.
 
 ---
+## 🤔 The Thought Process
+
+At first, I knew I had to match each company to a label, but there was no correct answer to compare with. So I realized the only thing I could rely on was the text: descriptions, tags, sector, etc.
+I decided to put all of that into one big text per company and then check if any of the insurance labels were mentioned, or at least most of the words from a label.
+Instead of using complicated tools, I kept it simple: lowercase everything, split the label into words, and match based on word presence. If most of the label words were in the company’s text, I assigned that label.
+It’s not perfect, but it worked really well! I got matches for 96% of the companies. And for a beginner, that was the main goal: make it work, keep it clean, and get results I can explain.
 
 ## 🎯 Objective
 
